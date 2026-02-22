@@ -92,3 +92,30 @@ time {
 .social a:hover {
   color: #000;
 }
+
+/* Margin images */
+.margin-img {
+  position: absolute;
+  width: 150px;
+  opacity: 0.9;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.margin-img.left {
+  right: calc(100% + 5rem);
+}
+
+.margin-img.right {
+  left: calc(100% + 5rem);
+}
+
+article {
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .margin-img {
+    display: none;
+  }
+}
