@@ -10,7 +10,7 @@ body {
   max-width: 640px;
   margin: 0 auto;
   padding: 2rem;
-  color: #555;
+  color: #333;
   background-color: #AF9AC9;
 }
 
@@ -20,7 +20,7 @@ nav {
 
 nav a {
   margin-right: 1rem;
-  color: #555;
+  color: #333;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ h2 {
 ul {
   margin-left: 1.25rem;
   margin-bottom: 1rem;
-  color: #555;
+  color: #333;
 }
 
 li {
@@ -62,7 +62,7 @@ h2 a:hover {
 
 p {
   margin-bottom: 1rem;
-  color: #555;
+  color: #333;
 }
 
 article {
@@ -70,13 +70,13 @@ article {
 }
 
 article a {
-  color: #555;
+  color: #333;
   font-size: 0.9rem;
 }
 
 time {
   font-size: 0.85rem;
-  color: #555;
+  color: #333;
 }
 
 .social {
@@ -86,7 +86,7 @@ time {
 }
 
 .social a {
-  color: #555;
+  color: #333;
 }
 
 .social a:hover {
