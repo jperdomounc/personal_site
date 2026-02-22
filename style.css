@@ -10,7 +10,7 @@ body {
   max-width: 640px;
   margin: 0 auto;
   padding: 2rem;
-  color: #333;
+  color: #555;
   background-color: #AF9AC9;
 }
 
@@ -20,7 +20,7 @@ nav {
 
 nav a {
   margin-right: 1rem;
-  color: #666;
+  color: #555;
   text-decoration: none;
 }
 
@@ -70,13 +70,13 @@ article {
 }
 
 article a {
-  color: #666;
+  color: #555;
   font-size: 0.9rem;
 }
 
 time {
   font-size: 0.85rem;
-  color: #888;
+  color: #555;
 }
 
 .social {
