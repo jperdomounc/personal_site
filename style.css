@@ -41,6 +41,12 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
 ul {
   margin-left: 1.25rem;
   margin-bottom: 1rem;
@@ -73,6 +79,11 @@ article a {
   color: #333;
   font-size: 0.9rem;
   text-decoration: underline;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.9em;
 }
 
 time {

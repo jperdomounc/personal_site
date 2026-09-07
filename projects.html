@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
+  <title>Projects &amp; Open Source</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,14 +14,45 @@
   </nav>
 
   <main>
-    <h1>Projects</h1>
+    <h1>Projects &amp; Open Source</h1>
 
-    <!-- Copy this block to add a new project -->
+    <p>Selected systems, graphics, and machine-learning work.</p>
+
     <article>
-      <h2><a href="projects/example-project.html">Project Title</a></h2>
-      <p>Brief description of what this project is.</p>
+      <h2>Firefox</h2>
+      <p>Improving Firefox's Linux resident-memory reporting by reading <code>smaps_rollup</code> instead of parsing every memory mapping, with support for sandboxed processes and older-kernel fallback behavior.</p>
+      <p><a href="https://phabricator.services.mozilla.com/D323816">View patch D323816</a> · <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=2069230">Bug 2069230</a></p>
     </article>
-    <!-- End project block -->
+
+    <article>
+      <h2>Linux kernel</h2>
+      <p>Working on the <code>cx231xx</code> media driver to preserve full I²C transfer lengths and prevent large reads from being truncated into invalid zero-length USB requests.</p>
+      <p><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/media/usb/cx231xx">View the driver</a> · <a href="https://syzkaller.appspot.com/bug?extid=ddccc0c0dbc0a38ffccb">Reported issue</a></p>
+    </article>
+
+    <article>
+      <h2>Polyner for UNC multisource-array CBCT</h2>
+      <p>Research code adapting a neural, polychromatic metal-artifact-reduction method from 2D fan-beam CT to UNC's measured 3D cone-beam geometry. The project includes dense reprojection and conventional ASTRA reconstruction workflows.</p>
+      <p><a href="https://github.com/jperdomounc/Polyner">View on GitHub</a></p>
+    </article>
+
+    <article>
+      <h2>VFINAF</h2>
+      <p>A neural attenuation field pipeline for reducing cone-beam artifacts. It fits a continuous 3D representation to measured projections and creates virtual fan-beam sinograms for slice-by-slice reconstruction without external training data.</p>
+      <p><a href="assets/papers/vfinaf.pdf">Read the paper (PDF)</a></p>
+    </article>
+
+    <article>
+      <h2>Kuwahara filter</h2>
+      <p>A multithreaded C++ image-processing implementation of the edge-preserving Kuwahara filter.</p>
+      <p><a href="https://github.com/jperdomounc/kuwahara">View on GitHub</a></p>
+    </article>
+
+    <article>
+      <h2>Multithreaded HTTP server</h2>
+      <p>A C++ HTTP server built to explore operating-system and concurrency concepts in practice.</p>
+      <p><a href="https://github.com/jperdomounc/http-server">View on GitHub</a></p>
+    </article>
 
   </main>
 </body>
